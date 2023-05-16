@@ -48,7 +48,7 @@ services:
      - onlyoffice
     ports:
      - '80:80'
-     - '443:443'
+     - '8445:443'
      - '5222:5222'
     stdin_open: true
     tty: true
